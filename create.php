@@ -15,7 +15,7 @@
 <body>
 <div class="wrapper">
         <form action="create.php" method="post">
-            <h1> Login </h1>
+            <h1> CRUD </h1>
             <div class="input-box">
                 <input type="text" name="name" id="pswd" placeholder="Name" required>
                 <i class='bx bx-user'></i>
@@ -34,7 +34,7 @@
                 <a href="#">Forgot Password? </a>
             </div> -->
 
-            <button class="btn" type="submit" name="btn"> Login </button>
+            <button class="btn" type="submit" name="btn"> Submit</button>
 
             <!-- <div class="register-link">
                 <p>Don't have an account? <a href="#"> Register </a></p>
