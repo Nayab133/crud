@@ -13,13 +13,13 @@
 <body>
     <?php
  require("connection.php");
- if(isset($_GET["ID"])){
-    $id = $_GET["ID"];
+ if(isset($_GET["id"])){
+    $id = $_GET["id"];
     $select = "SELECT * FROM `information` WHERE `ID` = '$id' ";
     $result = mysqli_query($connect,$select);
-    if (mysqli_num_rows($result) > 0) {
+    // if (mysqli_num_rows($result) > 0) {
         $row = mysqli_fetch_assoc($result);
-    }
+    
  }
  ?>
 
